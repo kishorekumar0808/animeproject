@@ -9,6 +9,14 @@
   min-height: 100vh;
 }
 
+.arrow {
+  height: 20px;
+  width: 50px;
+  text-align: left;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
 .bannerLogo {
   width: 90%;
   height: 330px;

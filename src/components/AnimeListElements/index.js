@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const AnimeListElements = (props) => {
@@ -6,6 +7,14 @@ const AnimeListElements = (props) => {
 
   return (
     <section className="AnimeListElements-container">
+      <Link to="/" className="arrow">
+        <img
+          src="https://cdn-user-icons.flaticon.com/31678/31678027/1632921687836.svg?token=exp=1632922729~hmac=2610965f64c1203426a02856d538cd71"
+          alt="arrow"
+          className="arrow"
+        />
+      </Link>
+
       <img src={format.bannerImage} alt="bannerImage" className="bannerLogo" />
 
       <div className="cart-container">
