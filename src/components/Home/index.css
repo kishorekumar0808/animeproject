@@ -1,0 +1,82 @@
+.bg-container {
+  background-color: #06023d;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "roboto";
+  min-height: 100vh;
+}
+
+.main-container {
+  width: 90%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: #000;
+  padding: 3px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.title {
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.3rem;
+}
+
+.span-ele {
+  color: red;
+}
+
+.input-search {
+  outline: 0;
+  border: 0;
+  color: #ffff;
+  background-color: transparent;
+  width: 90%;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.search-bar-container {
+  padding: 4px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.teams-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 80%;
+  list-style-type: none;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
