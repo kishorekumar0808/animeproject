@@ -9,7 +9,7 @@ const AnimeListElements = (props) => {
     <section className="AnimeListElements-container">
       <Link to="/" className="arrow">
         <img
-          src="https://cdn-user-icons.flaticon.com/31678/31678027/1632921687836.svg?token=exp=1632922729~hmac=2610965f64c1203426a02856d538cd71"
+          src="https://res.cloudinary.com/dhexuirow/image/upload/v1632923343/arrow_a6a4ev.png"
           alt="arrow"
           className="arrow"
         />
